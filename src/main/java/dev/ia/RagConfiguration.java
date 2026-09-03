@@ -18,7 +18,8 @@ public class RagConfiguration {
                 .contentRetriever(EmbeddingStoreContentRetriever.builder()
                         .embeddingStore(store)
                         .embeddingModel(embeddingModel)
-                        .maxResults(5)
+                        .maxResults(3)
+                        .minScore(0.8)
                         .build())
                 .build();
     }
