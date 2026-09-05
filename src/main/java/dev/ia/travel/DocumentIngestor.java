@@ -1,4 +1,4 @@
-package dev.ia;
+package dev.ia.travel;
 
 import java.nio.file.Paths;
 

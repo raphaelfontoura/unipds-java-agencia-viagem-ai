@@ -1,4 +1,4 @@
-package dev.ia;
+package dev.ia.travel;
 
 import dev.langchain4j.memory.ChatMemory;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
